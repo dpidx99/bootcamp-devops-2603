@@ -60,18 +60,3 @@ Se utilizó exactamente el mismo prompt en los tres asistentes:
 | ChatGPT | Identifica que no existe | Proporciona alternativas |
 | Copilot | Identifica que no existe | Explica el error|
 | Gemini | Identifica que no existe | Proporciona alternativas |
-
-## 6. Prueba de desbordamiento de contexto
-
-### Procedimiento
-
-1. Enviar a cada asistente una cantidad progresivamente mayor de texto.
-2. Aumentar el tamaño del contenido hasta alcanzar o aproximarse al límite de contexto.
-3. Solicitar al modelo que analice o resuma el contenido.
-4. Registrar si rechaza el contenido, pierde información, ignora partes del texto o consigue procesarlo correctamente.
-
-| Modelo | Resultado | Comportamiento observado |
-|---|---|---|
-| ChatGPT | Pendiente | Pendiente |
-| Claude | Pendiente | Pendiente |
-| Gemini | Pendiente | Pendiente |
